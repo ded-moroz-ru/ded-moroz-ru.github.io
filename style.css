@@ -1,0 +1,36 @@
+/* Общие настройки */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #14231e; min-height: 100vh; font-family: 'Inter', Arial, sans-serif; color: #14231e; }
+
+/* Шапка */
+.header { height: 90px; background: url(images/header.png) center / cover; display: flex; align-items: center; justify-content: center; }
+.header h1 { font-family: 'Open Sans', Arial, sans-serif; font-weight: 800; font-size: 34px; color: #ff1a1a; }
+
+/* Главная */
+.hero { height: 520px; margin-top: 30px; background: url(images/bg.png) center / cover; display: flex; align-items: center; justify-content: center; }
+.pill { width: 700px; max-width: 92%; background: white; border-radius: 999px; padding: 10px; }
+.pill img { width: 100%; display: block; }
+.buttons { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px; padding: 25px 20px; }
+.btn { width: 320px; height: 50px; background: #b91c1c; color: white; border-radius: 8px; font-size: 20px; font-weight: 700; text-transform: uppercase; text-decoration: none; display: flex; align-items: center; justify-content: center; }
+
+/* Карточка (запись, расписание, письмо) */
+.card { width: 700px; max-width: 92%; margin: 80px auto; background: #faf7f0; border-radius: 20px; padding: 35px; }
+.card h2 { font-size: 34px; margin-bottom: 12px; }
+.text { color: #6b706c; font-size: 18px; margin-bottom: 18px; }
+
+/* Поля формы */
+input, textarea { width: 100%; height: 42px; margin-bottom: 10px; padding: 0 14px; background: white; border: 1px solid #eee9dc; border-radius: 8px; font-size: 16px; font-family: inherit; }
+textarea { height: 100px; padding-top: 10px; }
+.row { display: flex; gap: 10px; }
+
+/* Красная кнопка и ссылка назад */
+.red { width: 100%; height: 50px; margin-top: 10px; background: #b91c1c; color: white; border: none; border-radius: 12px; font-size: 18px; font-weight: 700; cursor: pointer; text-decoration: none; display: flex; align-items: center; justify-content: center; }
+.back { display: block; margin-top: 22px; text-align: center; font-size: 18px; font-weight: 700; color: #14231e; text-decoration: none; }
+
+/* Расписание */
+.slot { display: flex; background: white; border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; font-size: 17px; }
+.slot b { width: 180px; }
+
+/* Экраны «Вы записаны» и «Письмо отправлено» */
+.result { text-align: center; max-width: 600px; margin-top: 250px; }
+.small { color: #b91c1c; font-weight: 700; text-transform: uppercase; font-size: 14px; margin-bottom: 18px; }

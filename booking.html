@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Резиденция Деда Мороза</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header"><h1>Резиденция Деда Мороза</h1></div>
+
+  <div class="card">
+    <h2>Запись онлайн</h2>
+    <p class="text">Встреча с Дедом Морозом начинается здесь.</p>
+    <form action="booked.html">
+      <input type="text" name="name" placeholder="Имя" required>
+      <div class="row">
+        <input type="date" name="date" required>
+        <input type="time" name="time" required>
+      </div>
+      <input type="number" name="guests" min="1" placeholder="Гости" required>
+      <button class="red" type="submit">Записаться</button>
+    </form>
+    <a class="back" href="index.html">Вернуться на главную</a>
+  </div>
+
+</body>
+</html>
